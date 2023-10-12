@@ -1,6 +1,6 @@
 package com.example.kotlin_basicapi_demo.models
 
-data class CreateUserRequest(
+data class UserRequest(
 
     var userName: String,
     var email: String,
