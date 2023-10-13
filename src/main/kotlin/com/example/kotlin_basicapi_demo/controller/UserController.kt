@@ -1,7 +1,7 @@
 package com.example.kotlin_basicapi_demo.controller
 
 import com.example.kotlin_basicapi_demo.models.User
-import com.example.kotlin_basicapi_demo.models.UserRequest
+import com.example.kotlin_basicapi_demo.dto.UserRequest
 import com.example.kotlin_basicapi_demo.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*

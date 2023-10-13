@@ -19,4 +19,14 @@ data class User(
 
     var picture: String = ""
 
-) {}
+) {
+
+    // user and chatroom has many to many relations
+    @ManyToMany
+    open var chatrooms: List<Chatroom> = listOf()
+
+    // user and message has one to many relations
+    @OneToMany
+    open var messages: List<Message> = listOf()
+
+}
